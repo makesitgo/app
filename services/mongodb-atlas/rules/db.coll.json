@@ -1,0 +1,24 @@
+{
+    "collection": "coll",
+    "database": "db",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "a": {
+                "bsonType": "string"
+            }
+        },
+        "title": "FooBar"
+    }
+}
