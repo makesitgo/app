@@ -1,6 +1,7 @@
 {
     "collection": "coll",
     "database": "db",
+    "id": "5f1f25984b0a44d0562e0df5",
     "roles": [
         {
             "name": "default",
@@ -19,6 +20,9 @@
                 "bsonType": "string"
             },
             "b": {
+                "bsonType": "string"
+            },
+            "c": {
                 "bsonType": "string"
             }
         },
